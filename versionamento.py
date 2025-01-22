@@ -1,6 +1,8 @@
 class Versionamento:
-    def __init__(self, nome_aplicacao, versao, parceiro):
-        pass
+    def __init__(self, nome_aplicacao, parceiro, status):
+        self.nome_aplicacao = nome_aplicacao
+        self.parceiro = parceiro
+        self.status = status
 
 '''Atributos para adicionar depois:
 
