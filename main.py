@@ -101,7 +101,7 @@ def main():
                 botao_aprovar_homologacao.click()
                 botao_confirmar_homologacao = WebDriverWait(driver, 5).until(EC.element_to_be_clickable((By.XPATH,
                      "/html/body/ngb-modal-window/div/div/confirm-modal/div/div[2]/button[2]")))
-                actions.move_to_element(botao_confirmar_homologacao).click().perform()
+                #actions.move_to_element(botao_confirmar_homologacao).click().perform()
 
                 break
             except TimeoutError as e:
